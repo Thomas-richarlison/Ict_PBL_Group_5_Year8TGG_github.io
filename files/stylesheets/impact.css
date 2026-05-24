@@ -1,0 +1,26 @@
+/* Custom Interactive Modern Square Metric Cards */
+.metric-square-card {
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Force direct inner element alignment within the ratio wrapper */
+.metric-square-card > div {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.metric-square-card:hover {
+    transform: translateY(-6px);
+    background-color: #ffffff !important;
+    border-color: #0d6efd !important;
+    box-shadow: 0 12px 24px rgba(13, 110, 253, 0.12) !important;
+}
+
+/* Optional tuning for the hover cue */
+.metric-square-card:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,20 @@
+footer {
+    background-color: #111111 !important; /* Absolute deep black */
+    color: #ffffff !important;
+    padding: 40px 0;
+    width: 100%;
+    margin-top: auto; 
+    flex-shrink: 0;
+}
+
+footer h5 {
+    color: #ffffff !important;
+}
+
+footer p, footer .nav-link {
+    color: #a0a0a0 !important; /* Soft grey text for reading readability */
+}
+
+footer .nav-link:hover {
+    color: #ffffff !important;
+}

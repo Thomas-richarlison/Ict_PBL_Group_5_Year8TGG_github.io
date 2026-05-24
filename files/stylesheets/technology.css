@@ -1,0 +1,71 @@
+/* ==========================================================================
+   Technology Page Custom Stylesheet
+   ========================================================================== */
+
+/* Component Rounding and Structure */
+.rounded-3xl {
+    border-radius: 1.5rem !important; /* ~24px custom rounded edges */
+}
+
+.warning-dark {
+    color: #664d03;
+}
+
+/* Tabpane Styling Customizations */
+#techTab .nav-link {
+    color: #495057;
+    background-color: transparent;
+    border: 1px solid #dee2e6;
+    transition: all 0.25s ease-in-out;
+}
+
+#techTab .nav-link:hover {
+    background-color: #f8f9fa;
+    border-color: #ced4da;
+}
+
+#techTab .nav-link.active {
+    color: #fff;
+    background-color: #0d6efd; /* Fallback primary accent */
+    border-color: #0d6efd;
+}
+
+/* Specific Pill Accent Tweaks based on bootstrap variations */
+#techTab .nav-link#automation-tab.active {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+#techTab .nav-link#water-tab.active {
+    background-color: #0dcaf0;
+    border-color: #0dcaf0;
+    color: #000;
+}
+
+#techTab .nav-link#hvac-tab.active {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #000;
+}
+
+/* Carousel Overlay Text Enhancement */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.75);
+    bottom: 30px;
+    left: 5%;
+    right: 5%;
+    backdrop-filter: blur(4px); /* Modern blur effect behind captions */
+    -webkit-backdrop-filter: blur(4px);
+}
+
+/* Accordion Component Smooth Interactivity */
+.accordion-button:not(.collapsed) {
+    background-color: #f8f9fa;
+    color: #212529;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
+.accordion-button:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.15);
+}

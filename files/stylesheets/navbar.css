@@ -1,0 +1,48 @@
+/* Clean White/Off-White Background for the whole Navbar */
+.navbar {
+    background-color: rgb(244, 253, 253) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 0.8rem 1rem !important;
+    height: 80px; /* Forces the exact same height on every page */
+    display: flex;
+    align-items: center;
+}
+
+/* Ensure the layout container matches across pages */
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: #333 !important;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+/* Dropdown Menu Style Fixes */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Hover/Active states for links */
+#selector {
+    text-decoration: underline;
+}
+#selector:hover {
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+#selector:active {
+    background: white;
+}

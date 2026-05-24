@@ -1,0 +1,70 @@
+/* Custom Variable Overrides and Reset Layouts */
+:root {
+    --bg-color: #fbf9f8;
+    --text-color: #1b1c1c;
+    --primary-color: #0059bb;
+    --primary-container: #0070ea;
+    --on-primary-container: #fefcff;
+    --secondary-container: #dbe4e4;
+    --text-muted: #6c757d;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+/* Custom Component Layouts */
+.hero-gradient {
+    background: linear-gradient(135deg, #fbf9f8 0%, #eef7f7 100%);
+    padding: 5rem 0;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Structural Card Improvements */
+.custom-pillar-card {
+    background-color: #ffffff;
+    border: 1px solid #E0EEEE;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.custom-pillar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.icon-wrapper {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.custom-pillar-card:hover .icon-wrapper {
+    transform: scale(1.1);
+}
+
+/* Utility Extensions */
+.rounded-xl {
+    border-radius: 0.5rem !important;
+}
+
+.rounded-2xl {
+    border-radius: 0.75rem !important;
+}
+
+.rounded-3xl {
+    border-radius: 1.5rem !important;
+}
